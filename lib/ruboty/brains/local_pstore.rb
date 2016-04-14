@@ -47,7 +47,7 @@ module Ruboty
       end
 
       def db
-        @db ||= PStore.new('/tmp/__ruboty_pstore__')
+				@db ||= PStore.new('./__ruboty_pstore__')
       end
 
       def interval
